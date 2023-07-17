@@ -1,0 +1,6 @@
+sudo ufw allow default outcoming 
+sudo ufw default deny incoming
+sudo allow 22/tcp
+sudo allow 80/tcp
+sudo allow 443/tcp
+sudo ufw enable
