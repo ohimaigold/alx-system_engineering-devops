@@ -1,4 +1,4 @@
-sudo ufw allow default outcoming 
+sudo ufw allow default outgoing 
 sudo ufw default deny incoming
 sudo allow 22/tcp
 sudo allow 80/tcp
